@@ -1,6 +1,6 @@
-# Systems / Low-level developer
+# Go, C++, Vulkan, Linux/Android
 
-Go, C++, Linux and Android. GPU compute pipelines, network daemons, on-device ML inference, automation.
+GPU compute, network daemons, on-device ML inference, reverse engineering.
 
 <img src="https://github-readme-stats.vercel.app/api?username=luxesses&show_icons=true&hide_title=true&count_private=true" height="150"/>
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luxesses&layout=compact&hide_title=true" height="150"/>
@@ -14,18 +14,8 @@ Go, C++, Linux and Android. GPU compute pipelines, network daemons, on-device ML
   <img src="https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white"/>
 </p>
 
-## Projects
-
-### [ai-node](https://github.com/luxesses/ai-node)
-Qwen2.5 1.5B on Adreno 660 via Vulkan (Mesa Turnip).
-8 tok/s on a 2021 phone — fully local inference, no cloud, no API keys.
-Telegram bot for management, transparent GPU fault recovery.
-
-### [network-manager](https://github.com/luxesses/network-manager)
-Wireless device isolation at ARP/NDP level.
-Go daemon with MAC whitelist, Telegram management, watchdog.
-
-## Architecture
+📱 [ai-node](https://github.com/luxesses/ai-node) — Qwen2.5 1.5B на Adreno 660 через Vulkan. 8 tok/s, без облаков.
+🛡️ [network-manager](https://github.com/luxesses/network-manager) — ARP-изоляция устройств в WiFi. Go демон с Telegram управлением.
 
 ```
 Telegram → bridge (Go) → llama.cpp → Vulkan (Turnip) → Adreno 660
