@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 260" width="800" height="260">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0d1117;stop-opacity:1"/>
+      <stop offset="100%" style="stop-color:#161b22;stop-opacity:1"/>
+    </linearGradient>
+    <linearGradient id="line" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.2"/>
+      <stop offset="50%" style="stop-color:#58a6ff;stop-opacity:0.6"/>
+      <stop offset="100%" style="stop-color:#58a6ff;stop-opacity:0.2"/>
+    </linearGradient>
+    <linearGradient id="box" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#1f6feb;stop-opacity:0.15"/>
+      <stop offset="100%" style="stop-color:#1f6feb;stop-opacity:0.05"/>
+    </linearGradient>
+    <linearGradient id="arrow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#58a6ff;stop-opacity:0.8"/>
+      <stop offset="100%" style="stop-color:#58a6ff;stop-opacity:0.3"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Background -->
+  <rect width="800" height="260" fill="url(#bg)"/>
+
+  <!-- Title -->
+  <text x="400" y="35" font-family="monospace, 'Courier New', Courier" font-size="14" fill="#8b949e" text-anchor="middle" letter-spacing="3">INFRASTRUCTURE ARCHITECTURE</text>
+
+  <!-- Horizontal line -->
+  <rect x="200" y="48" width="400" height="1" fill="url(#line)"/>
+
+  <!-- Telegram Box -->
+  <rect x="50" y="75" width="120" height="36" rx="4" fill="url(#box)" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.4"/>
+  <text x="110" y="97" font-family="monospace, 'Courier New', Courier" font-size="12" fill="#79c0ff" text-anchor="middle">Telegram</text>
+
+  <!-- Arrow 1 -->
+  <line x1="170" y1="93" x2="220" y2="93" stroke="url(#arrow)" stroke-width="1.5"/>
+  <polygon points="218,89 226,93 218,97" fill="#58a6ff" opacity="0.6"/>
+
+  <!-- Bridge Box -->
+  <rect x="230" y="75" width="120" height="36" rx="4" fill="url(#box)" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.4"/>
+  <text x="290" y="97" font-family="monospace, 'Courier New', Courier" font-size="12" fill="#79c0ff" text-anchor="middle">bridge (Go)</text>
+
+  <!-- Arrow 2 -->
+  <line x1="350" y1="93" x2="400" y2="93" stroke="url(#arrow)" stroke-width="1.5"/>
+  <polygon points="398,89 406,93 398,97" fill="#58a6ff" opacity="0.6"/>
+
+  <!-- llama.cpp Box -->
+  <rect x="410" y="75" width="130" height="36" rx="4" fill="url(#box)" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.4"/>
+  <text x="475" y="97" font-family="monospace, 'Courier New', Courier" font-size="12" fill="#79c0ff" text-anchor="middle">llama.cpp (C++)</text>
+
+  <!-- Arrow 3 -->
+  <line x1="540" y1="93" x2="590" y2="93" stroke="url(#arrow)" stroke-width="1.5"/>
+  <polygon points="588,89 596,93 588,97" fill="#58a6ff" opacity="0.6"/>
+
+  <!-- Vulkan Box -->
+  <rect x="600" y="75" width="90" height="36" rx="4" fill="url(#box)" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.4"/>
+  <text x="645" y="97" font-family="monospace, 'Courier New', Courier" font-size="12" fill="#79c0ff" text-anchor="middle">Vulkan</text>
+
+  <!-- Arrow 4 -->
+  <line x1="690" y1="93" x2="730" y2="93" stroke="url(#arrow)" stroke-width="1.5"/>
+  <polygon points="728,89 736,93 728,97" fill="#58a6ff" opacity="0.6"/>
+
+  <!-- Adreno Box -->
+  <rect x="730" y="70" width="55" height="46" rx="4" fill="url(#box)" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.4"/>
+  <text x="758" y="92" font-family="monospace, 'Courier New', Courier" font-size="11" fill="#79c0ff" text-anchor="middle">Adreno</text>
+  <text x="758" y="106" font-family="monospace, 'Courier New', Courier" font-size="9" fill="#8b949e" text-anchor="middle">660</text>
+
+  <!-- Divider -->
+  <line x1="50" y1="130" x2="750" y2="130" stroke="#30363d" stroke-width="0.5"/>
+
+  <!-- Second row: deauthd -->
+  <text x="290" y="155" font-family="monospace, 'Courier New', Courier" font-size="11" fill="#8b949e" text-anchor="middle" font-style="italic">↘</text>
+
+  <!-- Network-manager Box -->
+  <rect x="230" y="170" width="140" height="36" rx="4" fill="url(#box)" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.3"/>
+  <text x="300" y="192" font-family="monospace, 'Courier New', Courier" font-size="12" fill="#79c0ff" text-anchor="middle" opacity="0.8">network-manager (Go)</text>
+
+  <!-- Arrow 5 -->
+  <line x1="370" y1="188" x2="420" y2="188" stroke="url(#arrow)" stroke-width="1" opacity="0.5"/>
+  <polygon points="418,185 426,188 418,191" fill="#58a6ff" opacity="0.4"/>
+
+  <!-- netlink Box -->
+  <rect x="430" y="170" width="100" height="36" rx="4" fill="url(#box)" stroke="#58a6ff" stroke-width="0.5" stroke-opacity="0.3"/>
+  <text x="480" y="192" font-family="monospace, 'Courier New', Courier" font-size="12" fill="#79c0ff" text-anchor="middle" opacity="0.8">netlink</text>
+
+  <!-- Text labels below -->
+  <text x="400" y="230" font-family="sans-serif, 'Segoe UI', Helvetica" font-size="11" fill="#484f58" text-anchor="middle">on-device LLM inference — no cloud, no API keys</text>
+
+  <!-- Decorative bracket -->
+  <text x="400" y="250" font-family="monospace" font-size="10" fill="#21262d" text-anchor="middle">{ 8 tok/s on Adreno 660 | MAC whitelist | Telegram management  }</text>
+</svg>
