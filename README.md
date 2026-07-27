@@ -2,6 +2,8 @@
   <img src="https://raw.githubusercontent.com/luxesses/luxesses/main/assets/banner.svg" width="800" alt="banner"/>
 </p>
 
+<!-- render bust -->
+
 <p align="center">
   <img src="https://img.shields.io/badge/-Go-00ADD8?style=flat&logo=go&logoColor=white"/>
   <img src="https://img.shields.io/badge/-C++-00599C?style=flat&logo=cplusplus&logoColor=white"/>
