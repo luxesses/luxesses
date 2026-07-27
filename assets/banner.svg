@@ -54,4 +54,5 @@
 
   <!-- Bottom accent glow -->
   <rect x="360" y="148" width="80" height="1" fill="url(#accent)" opacity="0.3" rx="1"/>
+  <!-- cache bust 2 -->
 </svg>
