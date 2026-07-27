@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/luxesses/luxesses/main/assets/banner.png" width="800" alt="banner"/>
+  <img src="https://raw.githubusercontent.com/luxesses/luxesses/main/assets/banner@2x.png" width="800" alt="banner"/>
 </p>
 
 <!-- render bust -->
