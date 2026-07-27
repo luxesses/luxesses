@@ -10,8 +10,14 @@
   <img src="https://img.shields.io/badge/-Linux-FCC624?style=flat&logo=linux&logoColor=black"/>
   <img src="https://img.shields.io/badge/-Python-3776AB?style=flat&logo=python&logoColor=white"/>
   <img src="https://img.shields.io/badge/-Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
-  <img src="https://img.shields.io/badge/-Node.js-339933?style=flat&logo=nodedotjs&logoColor=white"/>
 </p>
+
+---
+
+## currently building
+
+**<a href="https://github.com/luxesses/nexus">nexus</a>** &mdash; Personal AI assistant with Obsidian integration. Local LLM (Qwen), auto-context from notes, macOS notifications.  
+**LegalDocGenerator** &mdash; AI-powered legal document generator (FastAPI, Python). Coming soon.
 
 ---
 
@@ -33,5 +39,5 @@
 ---
 
 <p align="center">
-  <font color="#484f58" size="2">building systems, tooling and infrastructure</font>
+  <font color="#484f58" size="2">building systems, tooling, infrastructure & AI</font>
 </p>
