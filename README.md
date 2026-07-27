@@ -16,8 +16,7 @@
 
 ## currently building
 
-**<a href="https://github.com/luxesses/nexus">nexus</a>** &mdash; Personal AI assistant with Obsidian integration. Local LLM (Qwen), auto-context from notes, macOS notifications.  
-**LegalDocGenerator** &mdash; AI-powered legal document generator (FastAPI, Python). Coming soon.
+**<a href="https://github.com/luxesses/nexus">nexus</a>** &mdash; Personal AI assistant with Obsidian integration. Local LLM (Qwen), auto-context from notes, macOS notifications.
 
 ---
 
@@ -31,8 +30,6 @@
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=luxesses&show_icons=true&hide_title=true&count_private=true&bg_color=0d1117&text_color=8b949e&icon_color=58a6ff&border_color=30363d" height="150"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=luxesses&layout=compact&hide_title=true&bg_color=0d1117&text_color=8b949e&icon_color=58a6ff&border_color=30363d" height="150"/>
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=luxesses&hide_border=true&background=0d1117&stroke=30363d&ring=58a6ff&fire=58a6ff&currStreakNum=8b949e&sideNums=8b949e&currStreakLabel=8b949e&sideLabels=8b949e&dates=484f58" height="150"/>
 </p>
 
